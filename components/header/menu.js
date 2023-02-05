@@ -5,7 +5,7 @@ const Menu = () => {
     return(
         <>
         <nav className="basis-3/5 m-auto">
-            <ul className="flex flex-row text-white text-lg items-center">
+            <ul className="flex flex-row text-slate-800 text-lg items-center">
                 <li className="basis-1/5 flex items-center">
                     <Link href="/">Inicio</Link>
                 </li>

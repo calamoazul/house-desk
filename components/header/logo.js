@@ -1,8 +1,9 @@
 
-const Logo = () => {
+const Logo = ({img, width}) => {
     return(
         <div className="object-cover basis-1/5">
-            <img width="50" src="/favicon.ico" />
+            <img width={width} src={img} />
+
         </div>
     )
 }
